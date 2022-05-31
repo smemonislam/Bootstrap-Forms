@@ -16,7 +16,7 @@
                     <form action="#" method="post">
                         <!-- Basic example -->
                         <h2 class="text-center mt-4 mb-4">Basic example</h2>
-                        <div class="border border-primary p-4">
+                        <div class="border border-primary border-3 p-4">
                             <div class="input-group mb-3">
                                 <label for="inputUsername" class="input-group-text">@</label>
                                 <input type="text" name="username" id="inputUsername" class="form-control">
@@ -47,6 +47,80 @@
                                 <textarea name="text" id="textArea" class="form-control"></textarea>
                             </div>
                         </div>
+
+                        <!-- Sizing -->
+                        <h2 class="text-center mt-4 mb-4">Sizing</h2>
+                        <div class="border border-primary border-3 p-4">
+                            <div class="input-group mb-3">
+                                <span class="input-group-text">Default</span>
+                                <input type="text" name="inputdefault" id="inputDefault" class="form-control" placeholder="Default">
+                            </div>
+                            <div class="input-group input-group-sm mb-3">
+                                <span class="input-group-text">Small</span>
+                                <input type="text" name="inputsmall" id="inputSmall" class="form-control" placeholder="Small">
+                            </div>
+                            <div class="input-group input-group-lg mb-3">
+                                <span class="input-group-text">Large</span>
+                                <input type="text" name="inputlarge" id="inputLarge" class="form-control" placeholder="Large">
+                            </div>
+                        </div>
+
+                        <!-- Checkboxes and radios -->
+                        <h2 class="text-center mt-4 mb-4">Checkboxes and radios</h2>
+                        <div class="border border-primary border-3 p-4">
+                           <div class="input-group mb-3">
+                                <div class="input-group-text">
+                                    <input type="radio" name="radio" id="radioInput" class="form-check-input mt-0">
+                                </div>
+                                <input type="text" name="radioinput" id="radioInput1" class="form-control">
+                           </div>
+                           <div class="input-group mb-3">
+                               <div class="input-group-text">
+                                   <input type="checkbox" name="checkbox" id="checkboxInput" class="form-check-input mt-0">
+                               </div>
+                               <input type="text" name="inputcheckbox" id="checkboxInput1" class="form-control">
+                           </div>
+                        </div>
+
+                        <!-- Multiple inputs -->
+                        <h2 class="text-center mt-4 mb-4">Multiple inputs</h2>
+                        <div class="border border-primary border-3 p-4">
+                            <div class="input-group mb-3">
+                                <span class="input-group-text">First Name & Last Name</span>
+                                <input type="text" name="multipleinputs" id="multipleInputs" class="form-control">
+                                <input type="text" name="multipleinput" id="multipleInput" class="form-control">
+                            </div>
+                        </div>
+
+                        <!-- Multiple addons -->
+                        <h2 class="text-center mt-4 mb-4">Multiple addons</h2>
+                        <div class="border border-primary border-3 p-4">
+                            <div class="input-group mb-4">
+                                <span class="input-group-text">$</span>
+                                <span class="input-group-text">0.00</span>
+                                <input type="text" name="addons" id="mAddons" class="form-control">
+                            </div>
+                            <div class="input-group mb-4">
+                                <input type="text" name="addons" id="mAddons" class="form-control">
+                                <span class="input-group-text">$</span>
+                                <span class="input-group-text">0.00</span>
+                            </div>
+                        </div>
+
+                        <!-- Button addons -->
+                        <h2 class="text-center mt-4 mb-4">Button addons</h2>
+                        <div class="border border-primary border-3 p-4">
+                            <div class="input-group mb-3">
+                                <button type="button" class="btn btn-outline-secondary">Button</button>
+                                <input type="text" name="btnaddons" id="btnAddons" class="form-control">
+                            </div>
+                            <div class="input-group mb-3">
+                                <input type="text" name="btnaddons" id="btnAddons" class="form-control" placeholder="Recipient's username">
+                                <button type="button" class="btn btn-outline-secondary">Button</button>
+                            </div>
+                        </div>
+
+                        <!-- Buttons with dropdowns -->
                     </form>
                 </div>
             </div>
