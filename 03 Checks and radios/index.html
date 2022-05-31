@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Checks and radios</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section class="check-radio">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12">
+                    <form action="#" method="post">
+                        <!-- Checks -->
+                        <h2 class="text-center mb-4 mt-4">Checks</h2>
+                        <div class="border border-info p-4">
+                            <div class="form-check">
+                                <input type="checkbox" name="inputcheck" id="inputCheck" class="form-check-input">
+                                <label for="inputCheck" class="form-check-label">Default checkbox</label>
+                            </div>
+                            <div class="form-check">
+                                <input type="checkbox" name="inputchecked" id="inputChecked" class="form-check-input" checked>
+                                <label for="inputChecked" class="form-check-label">Checked checkbox</label>
+                            </div>
+                        </div>
+
+                        <!-- Indeterminate -->
+                        <h2 class="text-center mb-4 mt-4">Indeterminate</h2>
+                        <div class="border border-info p-4">
+                            <div class="form-check">
+                                <input type="checkbox" name="indeterminate" id="indeterminateInput" class="form-check-input" >
+                                <label for="indeterminateInput" class="form-check-label">Indeterminate checkbox</label>
+                            </div>
+                        </div>
+
+                        <!-- Disabled -->
+                        <h2 class="text-center mb-4 mt-4">Disabled</h2>
+                        <div class="border border-info p-4">
+                            <div class="form-check">
+                                <input type="checkbox" name="inputdisabled" id="inputDisabled" class="form-check-input" disabled>
+                                <label for="inputDisabled" class="form-check-label">Disabled checkbox</label>
+                            </div>
+                            <div class="form-check">
+                                <input type="checkbox" name="inputdisabledchecked" id="inputDisabledChecked" class="form-check-input" disabled checked>
+                                <label for="inputDisabledChecked" class="form-check-label">Disabled checked checkbox
+                                </label>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-12">
+                    <form action="#" method="post">
+                        <!-- Radios -->
+                        <h2 class="text-center mt-4 mb-4">Radios</h2>
+                        <div class="border border-primary p-4">
+                            <div class="form-check">
+                                <input type="radio" name="inputradio" id="inputRadio" class="form-check-input">
+                                <label for="inputRadio" class="form-check-label">Default radio</label>
+                            </div>
+                            <div class="form-check">
+                                <input type="radio" name="inputradio" id="inputRadioChecked" class="form-check-input" checked>
+                                <label for="inputRadioChecked" class="form-check-label">Default checked radio</label>
+                            </div>
+                        </div>
+
+                        <!-- Disabled -->
+                        <h2 class="text-center mt-4 mb-4">Disabled</h2>
+                        <div class="form-check">
+                            <div class="form-check">
+                                <input type="radio" name="inputradiodisabled" id="inputradiodisabled" class="form-check-input" disabled>
+                                <label for="inputradiodisabled" class="form-check-label">Default radio</label>
+                            </div>
+                            <div class="form-check">
+                                <input type="radio" name="inputradiodisabled" id="inputradiodisabledCheck" class="form-check-input" checked disabled>
+                                <label for="inputradiodisabledCheck" class="form-check-label">Default checked radio</label>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-12">
+                    <form action="#" method="post">
+                        <!-- Switches -->
+                        <h2 class="text-center mt-4 mb-4">Switches</h2>
+                        <div class="border border-primary p-4">
+                            <div class="form-check form-switch">
+                                <input type="checkbox" name="inputswitch" id="inputSwitchDefulat" class="form-check-input">
+                                <label for="inputSwitchDefulat" class="form-check-label">Default switch checkbox input</label>
+                            </div>
+                            <div class="form-check form-switch">
+                                <input type="checkbox" name="switchcheked" id="switchChecked" class="form-check-input" checked>
+                                <label for="switchChecked" class="form-check-label">Checked switch checkbox input</label>
+                            </div>
+                            <div class="form-check form-switch">
+                                <input type="checkbox" name="switchdisabled" id="switchDisabled" class="form-check-input" disabled>
+                                <label for="switchDisabled" class="form-check-label">Disabled switch checkbox input</label>
+                            </div>
+                            <div class="form-check form-switch">
+                                <input type="checkbox" name="switchdisabledcheck" id="switchDisabledCheck" class="form-check-input" disabled checked>
+                                <label for="switchDisabledCheck" class="form-check-label">Disabled switch checkbox input checked</label>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-12">
+                    <form action="#" method="post">
+                        <!-- Inline Checkbox-->
+                        <h2 class="text-center mt-4 mt-4">Inline Checkbox</h2>
+                        <div class="border border-primary p-4">
+                            <div class="form-check form-check-inline">
+                                <input type="checkbox" name="checkboxinline1" id="checkboxInline1" class="form-check-input">
+                                <label for="checkboxInline1" class="form-check-label">1</label>
+                            </div>
+                            <div class="form-check form-check-inline">
+                                <input type="checkbox" name="checkboxinline2" id="checkboxInline2" class="form-check-input">
+                                <label for="checkboxInline2" class="form-check-label">2</label>
+                            </div>
+                            <div class="form-check form-check-inline">
+                                <input type="checkbox" name="checkboxinline3" id="checkboxInline3" class="form-check-input" checked disabled>
+                                <label for="checkboxInline3" class="form-check-label">3 (disabled)</label>
+                            </div>
+                        </div>
+
+                        <!-- Inline Radio -->
+                        <h2 class="text-center mt-4 mt-4">Inline Radio</h2>
+                        <div class="border border-primary p-4">
+                            <div class="form-check form-check-inline">
+                                <input type="radio" name="radioinline" id="radioInline1" class="form-check-input">
+                                <label for="radioInline1" class="form-check-label">1</label>
+                            </div>
+                            <div class="form-check form-check-inline">
+                                <input type="radio" name="radioinline" id="radioInline2" class="form-check-input">
+                                <label for="radioInline2" class="form-check-label">2</label>
+                            </div>
+                            <div class="form-check form-check-inline">
+                                <input type="radio" name="radioinline" id="radioInline3" class="form-check-input">
+                                <label for="radioInline3" class="form-check-label">3 (disabled)</label>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+</html>
