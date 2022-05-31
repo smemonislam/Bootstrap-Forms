@@ -16,40 +16,46 @@
 					<div class="col-sm-12">						
 						<form action="#" method="post">
 							<!-- Example -->
-							<h2 class="text-center">Example</h2>
-							<div class="mb-3">
-								<label for="emailAddress" class="form-label">Email address</label>
-								<input type="email" name="inputEmail" class="form-control" id="emailAddress" placeholder="Enter your email address">
-							</div>
-							<div class="mb-3">
-								<label for="inputMsg" class="form-label">Textarea</label>
-								<textarea class="form-control" name="message" id="inputMsg" rows="4" ></textarea>
-							</div>
+							<h2 class="text-center mt-4 mb-4">Example</h2>
+							<div class="border border-primary p-4">
+								<div class="mb-3">
+									<label for="emailAddress" class="form-label">Email address</label>
+									<input type="email" name="inputEmail" class="form-control" id="emailAddress" placeholder="Enter your email address">
+								</div>
+								<div class="mb-3">
+									<label for="inputMsg" class="form-label">Textarea</label>
+									<textarea class="form-control" name="message" id="inputMsg" rows="4" ></textarea>
+								</div>
+							</div>							
 
 							<!-- Sizing -->
-							<h2 class="text-center">Sizing</h2>
-							<div class="mb-3">
-								<label for="defaultSizing" class="form-label">Default Form</label>
-								<input type="text" name="default" class="form-control" id="defaultSizing" placeholder="form-control">
-							</div>
-							<div class="mb-3">
-								<label for="formControlSm" class="form-label">form-control-sm</label>
-								<input type="text" name="inputSm" class="form-control form-control-sm" id="formControlSm" placeholder="form-control-sm">
-							</div>
-							<div class="mb-3">
-								<label for="formControllg" class="form-label">form-control-lg</label>
-								<input type="text" name="inputLg" class="form-control form-control-lg" id="formControlformControllg" placeholder="form-control-lg">
+							<h2 class="text-center mt-4 mb-4">Sizing</h2>
+							<div class="border border-primary p-4">
+								<div class="mb-3">
+									<label for="defaultSizing" class="form-label">Default Form</label>
+									<input type="text" name="default" class="form-control" id="defaultSizing" placeholder="form-control">
+								</div>
+								<div class="mb-3">
+									<label for="formControlSm" class="form-label">form-control-sm</label>
+									<input type="text" name="inputSm" class="form-control form-control-sm" id="formControlSm" placeholder="form-control-sm">
+								</div>
+								<div class="mb-3">
+									<label for="formControllg" class="form-label">form-control-lg</label>
+									<input type="text" name="inputLg" class="form-control form-control-lg" id="formControlformControllg" placeholder="form-control-lg">
+								</div>
 							</div>
 
 							<!-- Disabled -->
-							<h2 class="text-center">Disabled</h2>
-							<div class="mb-3">
-								<label for="disabledForm" class="form-label">Disabled</label>
-								<input type="text" name="disabled" id="disabledForm" class="form-control" placeholder="Disabled" disabled>
-							</div>
-							<div class="mb-3">
-								<label for="readonlyForm" class="form-label">Disabled readonly input</label>
-								<input type="text" name="disabled" id="readonlyForm" class="form-control" placeholder="Disabled readonly input" disabled readonly>
+							<h2 class="text-center mt-4 mb-4">Disabled</h2>
+							<div class="border border-primary p-4">
+								<div class="mb-3">
+									<label for="disabledForm" class="form-label">Disabled</label>
+									<input type="text" name="disabled" id="disabledForm" class="form-control" placeholder="Disabled" disabled>
+								</div>
+								<div class="mb-3">
+									<label for="readonlyForm" class="form-label">Disabled readonly input</label>
+									<input type="text" name="disabled" id="readonlyForm" class="form-control" placeholder="Disabled readonly input" disabled readonly>
+								</div>
 							</div>							
 						</form>
 					</div>
@@ -58,17 +64,19 @@
 					<div class="col-sm-12">
 						<form action="#" method="post">
 							<!-- Readonly plain text -->
-							<h2 class="text-center">Readonly plain text</h2>
-							<div class="mb-3 row">
-								<label for="emailAddress" class="col-sm-2 col-form-label">Email</label>
-								<div class="col-sm-10">
-									<input type="text" name="inputEmail" id="emailAddress" class="form-control-plaintext" placeholder="Enter your email address" readonly>
-								</div>					
-							</div>
-							<div class="mb-3 row">
-								<label for="passwordInput" class="col-sm-2 col-form-label">Password</label>
-								<div class="col-sm-10">
-									<input type="password" name="pass" id="passwordInput" class="form-control">
+							<h2 class="text-center mt-4 mb-4">Readonly plain text</h2>
+							<div class="border border-inof p-4">
+								<div class="mb-3 row">
+									<label for="emailAddress" class="col-sm-2 col-form-label">Email</label>
+									<div class="col-sm-10">
+										<input type="text" name="inputEmail" id="emailAddress" class="form-control-plaintext" placeholder="Enter your email address" readonly>
+									</div>					
+								</div>
+								<div class="mb-3 row">
+									<label for="passwordInput" class="col-sm-2 col-form-label">Password</label>
+									<div class="col-sm-10">
+										<input type="password" name="pass" id="passwordInput" class="form-control">
+									</div>
 								</div>
 							</div>
 						</form>
@@ -77,37 +85,29 @@
 				<div class="row">
 					<div class="col-sm-12">
 						<form action="#" method="post">
-							<h2 class="text-center">File input</h2>
-							<div class="mb-3">
-								<label for="defaultFile" class="form-label">Default file input example</label>
-								<input type="file" name="defaultfile" id="defaultFile" class="form-control">
-							</div>
-							<div class="mb-3">
-								<label for="multipleFile" class="form-label">Multiple files input example</label>
-								<input type="file" name="multiplefile" id="multipleFile" class="form-control" multiple>
-							</div>
-							<div class="mb-3">
-								<label for="disabledFile" class="form-label">Disabled file input example</label>
-								<input type="file" name="disabledfile" id="disabledFile" class="form-control" disabled>
-							</div>
-							<div class="mb-3">
-								<label for="smallFile" class="form-label">Small file input example</label>
-								<input type="file" name="samllfile" id="smallFile" class="form-control form-control-sm">
-							</div>
-							<div class="mb-3">
-								<label for="largeFile" class="form-label">Large file input example</label>
-								<input type="file" name="largefile" id="largeFile" class="form-control form-control-lg">
-							</div>
-						</form>
-					</div>
-				</div>
-				<div class="row">
-					<div class="col-sm-12">
-						<form action="#" method="post">
-							<h2 class="text-center">Color</h2>
-							<div class="color-picker">
-								<label for="colorPicker" class="form-label">Color Picker</label>
-								<input type="color" name="colorpicker" id="colorPicker" class="form-control form-control-color" value="#563d7c" title="Choose your color">
+							<!-- File input -->
+							<h2 class="text-center mt-4 mb-4">File input</h2>
+							<div class="border border-info p-4">
+								<div class="mb-3">
+									<label for="defaultFile" class="form-label">Default file input example</label>
+									<input type="file" name="defaultfile" id="defaultFile" class="form-control">
+								</div>
+								<div class="mb-3">
+									<label for="multipleFile" class="form-label">Multiple files input example</label>
+									<input type="file" name="multiplefile" id="multipleFile" class="form-control" multiple>
+								</div>
+								<div class="mb-3">
+									<label for="disabledFile" class="form-label">Disabled file input example</label>
+									<input type="file" name="disabledfile" id="disabledFile" class="form-control" disabled>
+								</div>
+								<div class="mb-3">
+									<label for="smallFile" class="form-label">Small file input example</label>
+									<input type="file" name="samllfile" id="smallFile" class="form-control form-control-sm">
+								</div>
+								<div class="mb-3">
+									<label for="largeFile" class="form-label">Large file input example</label>
+									<input type="file" name="largefile" id="largeFile" class="form-control form-control-lg">
+								</div>
 							</div>
 						</form>
 					</div>
@@ -115,8 +115,23 @@
 				<div class="row">
 					<div class="col-sm-12">
 						<form action="#" method="post">
-							<h2 class="text-center">Datalists</h2>
-							<div class="datalist pb-5 mb-5">
+							<!-- Color -->
+							<h2 class="text-center mt-4 mb-4">Color</h2>
+							<div class="border border-primary p-4">
+								<div class="color-picker">
+									<label for="colorPicker" class="form-label">Color Picker</label>
+									<input type="color" name="colorpicker" id="colorPicker" class="form-control form-control-color" value="#563d7c" title="Choose your color">
+								</div>
+							</div>
+						</form>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-sm-12">
+						<form action="#" method="post">
+							<!-- Datalists -->
+							<h2 class="text-center mt-4 mb-4">Datalists</h2>
+							<div class="border border-info p-4">
 								<label for="dataList" class="form-label">Datalist example</label>
 								<input type="text" list="datalistItems" name="datalist" id="dataList" class="form-control" placeholder="type of search">
 								<datalist id="datalistItems">
