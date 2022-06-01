@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Floating labels</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section class="floating-labels">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12">
+                    <form action="#" method="post">
+                        <!-- Example -->
+                        <h2 class="text-center mt-4 mb-4">Floating labels</h2>
+                        <div class="border border-primary border-3 p-4">
+                            <div class="form-floating mb-3">
+                                <input type="email" name="emailfloating" id="emailFloating" class="form-control" placeholder="Enter your email address">
+                                <label for="emailFloating">Email Address</label>
+                            </div>
+                            <div class="form-floating">
+                                <input type="password" name="passfloating" id="passFloating" class="form-control" placeholder="password">
+                                <label for="passFloating">Password</label>
+                            </div>
+                        </div>
+
+                        <!-- Textareas -->
+                        <h2 class="text-center mt-4 mb-4">Textareas</h2>
+                        <div class="border border-primary border-3 p-4">
+                            <div class="form-floating">
+                                <textarea name="textarea" id="textArea" class="form-control" placeholder="textarea"></textarea>
+                                <label for="textArea">Comments</label>
+                            </div>
+                        </div>
+
+                        <!-- Selects -->
+                        <h2 class="text-center mt-4 mb-4">Selects</h2>
+                        <div class="border border-primary border-3 p-4">
+                            <div class="form-floating">
+                                <select name="selectfloating" id="selectFloating" class="form-select">
+                                    <option selected>Open this select menu</option>
+                                    <option value="1">One</option>
+                                    <option value="2">Two</option>
+                                    <option value="3">Three</option>
+                                    <option value="4">Four</option>
+                                </select>
+                                <label for="selectFloating">Works with selects</label>
+                            </div>
+                        </div>
+
+                        <!-- Layout -->
+                        <h2 class="text-center mt-4 mb-4">Layout</h2>
+                        <div class="border border-primary border-3 p-4">
+                            <div class="row">
+                                <div class="col-sm-6">
+                                    <div class="form-floating">
+                                        <input type="email" name="emailadd" id="emailAdd" class="form-control" placeholder="Enter email address">
+                                        <label for="emailAdd">Email Address</label>
+                                    </div>
+                                </div>
+                                <div class="col-sm-6">
+                                    <div class="form-floating">
+                                        <select name="selectfloating" id="selectFloating" class="form-select">
+                                            <option selected>Open this select menu</option>
+                                            <option value="1">One</option>
+                                            <option value="2">Two</option>
+                                            <option value="3">Three</option>
+                                            <option value="4">Four</option>
+                                        </select>
+                                        <label for="selectFloating">Works with selects</label>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
